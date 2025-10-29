@@ -1,0 +1,39 @@
+# Node dependencies
+node_modules/
+
+# Build output
+dist/
+
+# Vite cache
+node_modules/.vite/
+
+# Local environment variables
+.env
+.env.local
+.env.*.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+logs/
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE / Editor folders
+.vscode/
+.idea/
+*.suo
+*.sln
+*.user
+*.userosscache
+
+# Optional: temporary files
+*.tmp
+*.bak
+
+# Optional: coverage reports if using testing
+coverage/

@@ -1,0 +1,63 @@
+# Node.js dependencies
+node_modules/
+
+# Build outputs
+dist/
+build/
+out/
+coverage/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+logs/
+*.log
+
+# Environment files (keep secrets local)
+.env
+.env.local
+.env.*.local
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Editor / IDE settings
+# JetBrains IDEs (WebStorm, IntelliJ, CLion, etc.)
+.idea/
+*.iml
+
+# VS Code
+.vscode/
+.history/
+
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Misc caches
+*.swp
+*.swo
+*.tmp
+*.bak
+
+# TypeScript build cache
+*.tsbuildinfo
+
+# Optional package manager files
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# React/Vite local cache
+node_modules/.cache/
+frontend/node_modules/.cache/
+vite.config.ts.timestamp*
+
+# Sound files (optional — if you plan to upload externally)
+backend/sounds/
